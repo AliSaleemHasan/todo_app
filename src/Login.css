@@ -1,0 +1,49 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to left,
+    rgba(23, 77, 175, 1),
+    rgba(12, 44, 148, 1),
+    rgb(63, 103, 211)
+  );
+  display: grid;
+  place-items: center;
+}
+
+.login__container {
+  height: 60vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #dfdfdf;
+  background: linear-gradient(
+    to left,
+    rgba(15, 29, 90, 0.2),
+    rgba(15, 29, 90, 0.5),
+    rgba(15, 29, 90, 0.7)
+  );
+}
+
+.login__container > h2,
+.login__container > p {
+  margin: 20px;
+}
+
+.login__container > button {
+  width: 50%;
+  height: 30px;
+  border-radius: 3px;
+  outline: none;
+  font-weight: bold;
+  border: none;
+}
+
+.login__container > button:hover {
+  box-shadow: 1px 1px 10px 1px #22f;
+}
+.ps {
+  color: rgb(142, 145, 0);
+}

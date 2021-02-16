@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  place-items: center;
+  background-color: rgb(65, 105, 225);
+}
+
+.header__logo {
+  margin-left: 10px;
+  object-fit: contain;
+}
+
+.header > h6 {
+  margin: 0 3%;
+}
+
+.header__search > input:focus {
+  outline: none;
+}
+
+.header__search > input {
+  background-color: #eee;
+  height: 10px;
+  width: 100%;
+  border: none;
+}
+.header__search {
+  margin: 0 2%;
+  height: 20%;
+  background-color: #eee;
+  display: flex;
+  place-items: center;
+  flex: 1;
+}
+
+.header__search > .MuiSvgIcon-root:hover {
+  background-color: #fff;
+}
+.header > .MuiAvatar-root {
+  margin-right: 1%;
+}

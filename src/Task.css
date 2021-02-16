@@ -1,0 +1,14 @@
+.task {
+  display: flex;
+  place-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ddd;
+  opacity: 5;
+  background-color: #eee;
+  margin-bottom: 1%;
+  box-shadow: 1px 1px 2px rgb(60, 40, 235);
+}
+.task__info {
+  flex: 1;
+  margin: 0px 2%;
+}

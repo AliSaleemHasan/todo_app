@@ -1,0 +1,22 @@
+.todoList {
+  margin-top: 10px;
+}
+
+.todoList__add {
+  margin: 2px 5px;
+  display: flex;
+  place-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #aaa;
+}
+
+.todoList__add > form {
+  flex: 1;
+}
+.todoList__add > form > .MuiInput-root {
+  width: 90%;
+  border: none;
+}
+/* .todoList__add > form > .MuiInput-root:focus {
+  outline: none;
+} */

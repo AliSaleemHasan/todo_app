@@ -1,0 +1,6 @@
+.app__login {
+  display: grid;
+  place-items: center;
+  background-color: rgb(65, 105, 225);
+  height: 100vh;
+}
